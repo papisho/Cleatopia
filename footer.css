@@ -1,0 +1,33 @@
+
+.footer {
+    background: var(--secondary-background-color);
+    background-color:rgb(119, 130, 104);
+    display: flex;
+    gap: 8em;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.footer-nav a {
+    flex: none;
+    text-align: center;
+    padding-inline: 15px;
+    text-decoration: none;
+}
+
+.par-social {
+    margin-right: 8px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
