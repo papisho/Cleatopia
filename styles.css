@@ -1,0 +1,220 @@
+
+/* General Body Styling */
+.body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 130px;
+}
+
+/* Title and Intro Section */
+.body-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro {
+   
+    min-height: 200px; /* Set a minimum height to ensure the image is visible */
+   
+}
+
+.intro-title {
+    font-size: 2.5rem;
+    color: #4ec766;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button1, .button2 {
+    background-color: #4ec766;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover, .button2:hover {
+    background-color: #3aa34f;
+}
+
+/* About the Event Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-video {
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-event {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 60%;
+}
+
+/* What to Expect Section */
+.expectation {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.expectation h3 {
+    font-size: 1.8rem;
+    color: #4ec766;
+    margin-bottom: 20px;
+}
+
+.expectation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expectation ul li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.expectation ul li b {
+    color: #4ec766;
+}
+
+.having-fun {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Event Schedule Section */
+.schedule {
+    text-align: center;
+}
+
+#event-schedule {
+    text-align: center;
+    font-size: 2rem;
+    color: #4ec766;
+    margin-bottom: 20px;
+}
+
+.event-1, .event-2 {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Other Resources Section */
+.links {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.links h2 {
+    font-size: 1.8rem;
+    color: #4ec766;
+    margin-bottom: 20px;
+}
+
+.block {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.block:hover {
+    background-color: #e0f7e9;
+}
+
+.block h3 {
+    font-size: 1.5rem;
+    color: #4ec766;
+    margin-bottom: 10px;
+}
+
+.block p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.intro {
+    background-image: url('./images/background-image.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+}
+
+.intro-title {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to text for better readability */
+    margin-top: 10px;
+    
+}
+
+.slogan {
+    display: block; /* Ensures it appears on the next line */
+    font-size: 1.5rem;  
+    font-weight: bold;
+    color: #ffcc00; /* Gold shade */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-style: italic;
+    margin-top: 70px; /* Small spacing below title */
+    
+}
+
+
+
