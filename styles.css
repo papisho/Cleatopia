@@ -1,4 +1,5 @@
 
+
 /* General Body Styling */
 .body {
     font-family: 'Arial', sans-serif;
@@ -218,3 +219,33 @@
 
 
 
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #40354a; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+/* Dark mode for navbar */
+.dark-mode .header {
+    background-color: #40354a;
+    border-bottom: 1px solid #333;
+}
+
+/* Dark mode for buttons */
+.dark-mode .button1,
+.dark-mode .button2 {
+    background-color: #4ec766;
+    color: #fff;
+}
+
+/* Style the theme button */
+#theme-button {
+    padding: 1px 8px;
+    border-radius: 5px;
+    background-color:#e0f7e9;
+    border: none;
+    font-size: 1.5rem; /* Larger emoji */
+    cursor: pointer;
+    margin-right: 10px;
+}

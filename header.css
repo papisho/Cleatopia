@@ -1,3 +1,6 @@
+
+
+
 /* Header Styling */
 .main-header {
     position: fixed;
@@ -19,13 +22,15 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: rgb(242, 243, 240);
+    background-color:#e4e8e3;
+    
 }
 
 /* Logo and Title */
 .title {
     display: flex;
     align-items: center;
+    
 }
 
 .title img {
@@ -45,6 +50,7 @@
     display: flex;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 .header-list-items li {

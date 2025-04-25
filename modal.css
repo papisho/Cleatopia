@@ -1,0 +1,50 @@
+
+
+/*** Success Modal  ***
+  
+  Purpose:
+  - Add style rules to your website's pop-up modal, which appears
+    when a user successfully submits the RSVP form
+***/
+
+.modal {
+    display: none;   /* modal should be hidden by default*/
+    position: fixed; /* modal cannot move around the screen */
+    z-index: 2;      /* modal appears above other elements */ 
+    
+    /* ✅ Replaced TODO: Make the modal fill the entire screen */
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  
+    /* Add a semi-transparent background to shadow non-modal elements */
+    background-color: rgba(0,0,0,0.4); /* 40% opacity black */
+  
+    /* Flexbox settings for modal */
+    /* These won't apply until we update "display:" from "hidden" to "flex" in our JS */
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-container {
+      /* Change modal size and spacing here */
+      padding: 50px;
+      width: 55%;
+  
+      /* Customize modal style here */
+      background-color: lightsteelblue;
+      color: black;
+      text-align: center;
+      font-size: 1rem;
+      font-family: monospace;
+  
+      /* Optional: Use flexbox to customize .modal-item layout */
+      display: flex;
+  }
+  
+  /*.modal-item {
+      /* Optional: Style individual elements within the modal */
+  /*}
+  
