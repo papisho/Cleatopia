@@ -1,0 +1,85 @@
+
+
+
+/* RSVP Section */
+#rsvp {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+.rsvp-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    
+}
+
+.rsvp-para {
+    flex: 1;
+}
+
+.rsvp-participants {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: -97px;
+    
+}
+
+/* Form Styling */
+.form-container {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    padding-top: 7px;
+    align-items: center;
+}
+
+#rsvp-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#rsvp-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#rsvp-button {
+    padding: 10px 20px;
+    background-color: #4ec766;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#rsvp-button:hover {
+    background-color: #3aa34f;
+}
+
+
+#rsvp-count {
+    font-weight: bold;
+    font-size: large;
+    color: #4ec766; /* my brand green :) */
+    margin: 10px 0;
+    padding: 5px;
+    display: block;
+}
+
+/* error handling*/
+.error {
+    border: 2px solid #ff0000;
+    background-color: #ffeeee;
+    animation: shake 0.5s;
+}
+

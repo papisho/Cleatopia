@@ -1,24 +1,17 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
     <head>
-        <!-- head
 
-        Purpose:
-        - Title used here shows up in the browser tab
-        - Link to the favicon (small image that appears in the browser tab)
-        - Link to the CSS file (used to style the webpage)
-
-        When To Modify:
-        - [ ] Project 2 (REQUIRED FEATURE) 
-        - [ ] Project 2 (STRETCH FEATURE) (favicon)
-        - [ ] Any time after
-        -->
         <title>Football watch party</title>
         <link rel="icon" href="./img/tab-icon.webp">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./header.css">
+        <link rel="stylesheet" href="./rsvp.css">
+        <link rel="stylesheet" href="./modal.css">
+        <link rel="stylesheet" href="./footer.css">
 
         <style>
         /* Style rules go here. */
@@ -27,20 +20,6 @@
 
     <body class="body">
 
-        <!-- navbar [PLACEHOLDER] [ADDED IN UNIT 4] -->
-
-        <!-- headings
-
-        Purpose:
-        - Main header section of the webpage
-        - Contains the title, subtitle, image, and key buttons for the webpage
-
-        When To Modify:
-        - [ ] Project 2 (REQUIRED FEATURE) 
-        - [ ] Project 3 (REQUIRED FEATURE) 
-        - [ ] Project 4 (REQUIRED FEATURE) 
-        - [ ] Any time after
-        -->
         <div class="main-header">
             <header class="header">
                 <img id="soccer-logo" src="./images/soccer-logo.png"
@@ -57,8 +36,10 @@
                                 <a href="https://www.premierleague.com"
                                     target="_blank">Premier League</a>
                                 <a href="#">Laliga</a>
+                                <a href="#rsvp">RSVP</a>
                             </div>
                         </li>
+                        <button id="theme-button">🌙</button>
                     </ul>
                 </nav>
             </header>
@@ -74,7 +55,7 @@
                     <button class="button1" type="button">Video
                         Highlights</button>
                 </a>
-                <a href="#">
+                <a href="https://www.predictz.com" target="_blank">
                     <button class="button2" type="button">Betting Tips</button>
                 </a>
             </div>
@@ -155,7 +136,7 @@
                 place. A win for Newcastle could take them up to
                 5th and close the gap to Westham</p>
             <img class="event-2" alt="Westham vs Necastle"
-                src="./images/whu vs new.png" height="230" width="700" />
+                src="#" height="230" width="700" />
 
             <h3 class="events">Bingo Night</h3>
             <p>Come and play Bingo. Three luckly winners will get a free drink
@@ -164,10 +145,57 @@
             <img class="event-2" alt="Chelsea vs Totenham"
                 src="./images/Soccer_Bingo_.webp" height="230" width="450" />
         </div>
-        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
-        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] -->
 
-        <!-- links
+        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+        <div id="rsvp">
+            <h2>RSVP for the Watch Party</h2>
+            <p id="rsvp-count">🚀 3 people have RSVP'd to this event!</p>
+            <div class="rsvp-container">
+                <div class="rsvp-para">
+                    <p>Join fellow soccer fans for an unforgettable watch party
+                        experience!
+                        RSVP now to secure your spot and see who else is
+                        coming.</p>
+                </div>
+                <div class="rsvp-participants">
+                    <p>⚽ DJ from Texas has RSVP'd.</p>
+                    <p>⚽ Amy from New York has RSVP'd.</p>
+                    <p>⚽ Teresa from Montana has RSVP'd.</p>
+                </div>
+            </div>
+
+            <!-- RSVP Form -->
+            <div class="form-container">
+                <form id="rsvp-form">
+                    <input type="text" name="name" placeholder="Your Name"
+                        required>
+                    <input type="text" name="country" placeholder="Your Country"
+                        required>
+                    <input type="email" name="email" placeholder="Your Email"
+                        required>
+                </form>
+                <button id="rsvp-button">Submit RSVP</button>
+            </div>
+        </div>
+
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] -->
+        <div id="success-modal" class="modal">
+            <div class="modal-container">
+                <div id="modal-item">
+                    <!-- Text element here -->
+                    <p id="modal-text">Thanks for RSVPing! We’re excited to see
+                        you at the event.</p>
+                </div>
+                <div id="modal-item">
+                    <!-- Image element here -->
+                    <img src="./images/soccer-logo.png"
+                        alt="Soccer celebration"
+                        style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+        </div>
+
+        <!-- links  
 
         Purpose:
         - Links to other resources related to the event
@@ -223,6 +251,7 @@
         </footer>
 
         <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+        <script src="./script.js"></script>
 
     </body>
 
